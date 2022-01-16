@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{>header}}
+
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="./register" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input
+              type="text"
+              placeholder="Enter your Full Name"
+              name="fullname"
+              
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details">User Name</span>
+            <input
+              type="text"
+              placeholder="Enter your User Name"
+              name="username"
+              
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input
+              type="text"
+              placeholder="Enter your Email"
+              name="email"
+              
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input
+              type="number"
+              placeholder="Enter your Phone Number"
+              name="phonenumber"
+              
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input
+              type="password"
+              placeholder="Enter your Password"
+              name="password"
+              
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input
+              type="password"
+              placeholder="Confirm your Password"
+              name="confirmpassword"
+              
+            />
+          </div>
+          
+            <div class="button">
+              <input type="submit" value="register" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
